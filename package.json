@@ -4,8 +4,8 @@
   "description": "Nodejs",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon nodePackageManager/index",
-    "dev": "node nodePackageManager/index"
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "repository": {
     "type": "git",
