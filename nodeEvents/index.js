@@ -1,5 +1,5 @@
 // Our custom module
-const logEvents = require('./nodeEvents/logEvents');
+const logEvents = require('./logEvents');
 
 // Common Core Modules
 const EventEmitter = require('events');
@@ -14,4 +14,4 @@ myEmitter.on('log', (message) => logEvents(message));
 
 setTimeout(() => {
     myEmitter.emit('log', 'Log Event Emitted - Hello World!');
-}, 2000)
+}, 2000);
