@@ -1,5 +1,5 @@
 // Our custom module
-const logEvents = require('./nodeEvents/logEvents');
+const logEvents = require('./logEvents');
 
 // Common Core Modules
 const EventEmitter = require('events');
