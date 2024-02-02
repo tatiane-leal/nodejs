@@ -1,3 +1,1 @@
-20240202	13:09:39;	3e0f494b-02c4-4a2e-a9ba-89d75eec12b1	Log Event Emitted - Hello World!
-20240202	13:09:53;	3579cf86-0c76-4e28-921d-f1b282bdd984	Log Event Emitted - Hello World!
-20240202	13:10:08;	9408733f-4b19-4b19-bb73-750a36f94c2a	Log Event Emitted - Hello World!
+20240202	13:39:47;	229bde01-ed30-40aa-a547-7c6c67007038	Log Event Emitted - Hello World!
