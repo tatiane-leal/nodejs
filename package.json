@@ -1,0 +1,31 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon nodePackageManager/index",
+    "dev": "node nodePackageManager/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tatiane-leal/nodejs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "npm"
+  ],
+  "author": "Tatiane Sala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tatiane-leal/nodejs/issues"
+  },
+  "homepage": "https://github.com/tatiane-leal/nodejs#readme",
+  "dependencies": {
+    "date-fns": "^3.3.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
