@@ -48,10 +48,7 @@ const three = (req, res) => {
 app.get('/chain(.html)?', [one, two, three]);
 
 
-
-
-
-// A slash followed by anything will get to this endpoint that will server the 404 page.
+// A slash followed by anything will get to this endpoint that will serve the 404 page.
 app.get('/*', (req, res) => {
     res.status(404).sendFile(path.join(__dirname, 'views', '404.html'));
 });
