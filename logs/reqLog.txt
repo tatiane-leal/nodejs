@@ -1,0 +1,7 @@
+20240204	17:05:17;	4f20a712-00d8-4995-8800-fffb38f73300	GET	undefined	/
+20240204	17:05:17;	40c9c6bc-44bb-46ac-9697-89aac8c4356d	GET	undefined	/css/style.css
+20240204	17:05:17;	24e0c25a-9bca-4212-961d-870711a1d454	GET	http://localhost:3000	/script.js
+20240204	17:08:19;	00cc9ff2-95e3-428c-b112-f3ce14cce0ad	GET	undefined	/new-page
+20240204	17:08:19;	8f11c1c5-3aa9-408a-9762-242214e1b454	GET	undefined	/css/style.css
+20240204	17:08:19;	57fbfd5a-a649-4495-99d0-14da3a5307a3	GET	http://localhost:3000	/script.js
+20240204	17:08:19;	6e6b440d-627b-4c07-9ef7-0ecfcfc4d3fd	GET	undefined	/img/nodejs-logo.png

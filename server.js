@@ -1,7 +1,25 @@
 const express = require('express');
 const app = express();
 const path = require('path');
+const { logger } = require('./middleware/logEvents');
 const PORT = process.env.PORT || 3000;
+
+// Custom Middleware - Logger
+app.use(logger);
+
+
+// 1 - Built-in Middleware to handle urlencoded data (form data) 'content-type: application/x-www-form-urlencoded'
+// so we can get this data here
+// app.use is what we often use to apply middleware to all routes that are coming in. And just like http methods (app.get, app.post, app.put...) it works as a wattefall,
+// so if we put app.use above our route, then this will apply to all requests that come in.
+app.use(express.urlencoded({ extended: false }));
+
+// Built-in Middleware for JSON so we can get this data as well. And these middlewares will be applied to all routes that are coming in.
+app.use(express.json());
+
+// Serve static files
+app.use(express.static(path.join(__dirname, 'public')));
+
 
 app.get('^/$|/index(.html)?', (req, res) => {
     // We can serve a file in both ways:
