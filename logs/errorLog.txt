@@ -1,1 +1,2 @@
 20240204	17:41:03;	3bb60c75-d3d0-4bb1-8f4d-63a2adc4d325	Error: Not allowed by CORS
+20240204	18:08:36;	ea6a88b9-0f73-43dc-ab25-f9497cce4cc5	Error: ENOENT: no such file or directory, stat 'C:\Users\tatiane.sala\dev\nodejs\views\subdir\test.html'
