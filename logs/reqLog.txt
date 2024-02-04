@@ -83,3 +83,16 @@
 20240204	18:19:10;	1be75e68-bc1f-426b-896b-d5e07adc7dad	GET	undefined	/index.html
 20240204	18:19:10;	86855461-6d00-4e02-9d6d-9eef40243bc1	GET	undefined	/css/style.css
 20240204	18:19:10;	fac1e639-f2e3-44f8-ba26-a3333bc2d7e4	GET	http://localhost:3000	/script.js
+20240204	18:31:59;	13f35195-a3c3-4f4c-aa1d-14e0ea06bfa9	GET	undefined	/employees
+20240204	18:33:56;	a1e06ba4-e816-47da-b0cd-bca60f62eb48	POST	undefined	/employees
+20240204	18:34:09;	013ce14f-f206-4342-9e97-86ef5d639b5a	POST	undefined	/employees
+20240204	18:34:15;	6e94bfac-14fa-46d9-b809-b649cea7ac11	GET	undefined	/employees
+20240204	18:34:31;	ae9d6dfc-0fc0-4e0e-aa0a-524a99ed08b8	POST	undefined	/employees
+20240204	18:34:54;	590fed2c-c950-4479-8829-17dd41711bff	POST	undefined	/employees
+20240204	18:35:02;	b2b1c644-3825-4ae3-a34e-8555e5df6c44	GET	undefined	/employees
+20240204	18:35:09;	9a5d1cff-8c99-4cf7-bec9-dc619862a92e	POST	undefined	/employees
+20240204	18:36:57;	4813f995-f3e0-4ad8-ba7a-c4fa77a1873d	PUT	undefined	/employees
+20240204	18:37:38;	6ea6314b-9d74-4d19-b5b5-563ad22037ec	DELETE	undefined	/employees
+20240204	18:38:21;	b1e7d21e-0a08-4077-9a43-b6023a9999de	GET	undefined	/employees
+20240204	18:38:37;	43fbc95d-6719-4331-ad97-ee0f1bb46066	GET	undefined	/employees/1
+20240204	18:38:56;	a190fcc5-a89c-495c-a7a4-8d601f82aad8	GET	undefined	/employees/2

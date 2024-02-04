@@ -40,10 +40,11 @@ app.use(express.json());
 app.use('/', express.static(path.join(__dirname, 'public')));
 app.use('/subdir', express.static(path.join(__dirname, 'public')));
 
-
+// Routes
 app.use('/', require('./routes/root'));
 // This will route any request that comes in for the subdirectory to router instead of the routes below with app.method()
 app.use('/subdir', require('./routes/subdir'));
+app.use('/employees', require('./routes/api/employees'));
 
 // A slash followed by anything will get to this endpoint that will serve the 404 page.
 // app.get('/*', (req, res) => {
