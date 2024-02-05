@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const {
   getAllEmployees,
-  createEmployee,
+  createNewEmployee,
   updateEmployee,
   deleteEmployee,
   getEmployee,
@@ -11,7 +11,7 @@ const {
 router
   .route("/")
   .get(getAllEmployees)
-  .post(createEmployee)
+  .post(createNewEmployee)
   .put(updateEmployee)
   .delete(deleteEmployee);
 
