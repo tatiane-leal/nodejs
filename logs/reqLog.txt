@@ -100,3 +100,10 @@
 20240205	11:55:21;	094d80f0-d8cf-4a30-99b2-3471cb989c16	GET	undefined	/css/style.css
 20240205	11:55:21;	8a3607c4-2ffd-4477-aae5-2d06960c33e2	GET	http://localhost:3000	/script.js
 20240205	11:55:29;	6fb289c9-ea7d-4615-8c70-c3db5a26349d	GET	undefined	/employees
+20240205	12:55:58;	cd3d46cf-5619-47d5-ba10-673ae01d9140	GET	undefined	/employees
+20240205	12:56:22;	b0d8390f-7403-4a09-b85c-ef9451607185	POST	undefined	/employees
+20240205	12:56:59;	3a400543-bd92-4fdf-92b5-cdb8d0627e78	GET	undefined	/employees
+20240205	12:58:04;	b9906837-26a8-48ae-aea5-2d80ede332c4	POST	undefined	/employees
+20240205	13:00:56;	eac7dc9a-41d9-4914-9ccb-b249a82cf176	POST	undefined	/employees
+20240205	13:01:23;	a94e7d19-eb72-4e7b-be1e-33e5e864f8a6	POST	undefined	/employees
+20240205	13:02:09;	9d01f018-d6a0-4d31-80b4-2b11e62fd458	POST	undefined	/employees
