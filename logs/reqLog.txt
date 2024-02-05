@@ -96,3 +96,7 @@
 20240204	18:38:21;	b1e7d21e-0a08-4077-9a43-b6023a9999de	GET	undefined	/employees
 20240204	18:38:37;	43fbc95d-6719-4331-ad97-ee0f1bb46066	GET	undefined	/employees/1
 20240204	18:38:56;	a190fcc5-a89c-495c-a7a4-8d601f82aad8	GET	undefined	/employees/2
+20240205	11:55:21;	d33b5ac2-732f-46e6-9766-88aed4d10781	GET	undefined	/index.html
+20240205	11:55:21;	094d80f0-d8cf-4a30-99b2-3471cb989c16	GET	undefined	/css/style.css
+20240205	11:55:21;	8a3607c4-2ffd-4477-aae5-2d06960c33e2	GET	http://localhost:3000	/script.js
+20240205	11:55:29;	6fb289c9-ea7d-4615-8c70-c3db5a26349d	GET	undefined	/employees
