@@ -27,8 +27,11 @@ app.use("/", express.static(path.join(__dirname, "public")));
 
 // Routes
 app.use("/", require("./routes/root"));
+app.use("/register", require("./routes/register"));
+app.use("/auth", require("./routes/auth"));
 // This will route any request that comes in for the subdirectory to router instead of the routes below with app.method()
 app.use("/employees", require("./routes/api/employees"));
+
 
 // A slash followed by anything will get to this endpoint that will serve the 404 page.
 // app.get('/*', (req, res) => {

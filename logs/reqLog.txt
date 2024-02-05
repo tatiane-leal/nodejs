@@ -108,3 +108,12 @@
 20240205	13:01:23;	a94e7d19-eb72-4e7b-be1e-33e5e864f8a6	POST	undefined	/employees
 20240205	13:02:09;	9d01f018-d6a0-4d31-80b4-2b11e62fd458	POST	undefined	/employees
 20240205	13:06:44;	e1ed4b3a-3d52-4d2d-bde1-e06ccb4df42a	POST	undefined	/employees
+20240205	13:08:24;	8386e226-bdf3-4842-ab73-0f9d6780deea	PUT	undefined	/employees
+20240205	13:08:58;	414f2dca-03aa-4d47-9aaf-d5c46807064d	DELETE	undefined	/employees
+20240205	13:09:08;	088d5d50-5653-4894-a874-108bae596cdf	GET	undefined	/employees/2
+20240205	13:09:12;	eb34c434-e546-42e9-8341-83af3d6d093d	GET	undefined	/employees/1
+20240205	17:16:55;	49483f7a-5198-4b1f-bd1d-4927f0803e18	POST	undefined	/register
+20240205	17:18:50;	9a99804e-8171-40f1-90ff-25787b7bffe2	POST	undefined	/register
+20240205	17:30:07;	f6949344-7d6c-4b58-ba08-3beab4017947	POST	undefined	/auth
+20240205	17:30:25;	386ab98f-1df7-401c-ba8a-3e88c88ec52a	POST	undefined	/auth
+20240205	17:31:20;	ee896d1c-ed97-4c4b-b18c-2306a22bd3f6	POST	undefined	/register
