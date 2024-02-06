@@ -1,13 +1,10 @@
 // After development is done, remove || !origin and local domains from white list.
-const whiteOriginDomainList = [
-  "http://localhost:3000",
-  "https://www.google.com",
-];
+const allowedOrigins = require("./allowedOrigins");
 
 const corsOptions = {
   origin: (origin, callback) => {
     // If the origin domain is in the white list, then allow the request
-    if (whiteOriginDomainList.indexOf(origin) !== -1 || !origin) {
+    if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
       // null means no error and true means the origin is allowed
       callback(null, true);
     } else {
