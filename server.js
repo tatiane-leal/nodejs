@@ -5,6 +5,8 @@ const cors = require("cors");
 const corsOptions = require("./config/corsOptions");
 const { logger } = require("./middleware/logEvents");
 const errorHandler = require("./middleware/errorHandler");
+const { verifyJWT } = require("./middleware/verifyJWT");
+const cookieParser = require("cookie-parser");
 const PORT = process.env.PORT || 3000;
 
 // Custom Middleware - Logger
@@ -22,6 +24,9 @@ app.use(express.urlencoded({ extended: false }));
 // Built-in Middleware for JSON so we can get this data as well. And these middlewares will be applied to all routes that are coming in.
 app.use(express.json());
 
+// Middleware for cookies
+app.use(cookieParser());
+
 // Serve static files
 app.use("/", express.static(path.join(__dirname, "public")));
 
@@ -29,6 +34,9 @@ app.use("/", express.static(path.join(__dirname, "public")));
 app.use("/", require("./routes/root"));
 app.use("/register", require("./routes/register"));
 app.use("/auth", require("./routes/auth"));
+app.use("/refresh", require("./routes/refresh"));
+
+app.use(verifyJWT);
 // This will route any request that comes in for the subdirectory to router instead of the routes below with app.method()
 app.use("/employees", require("./routes/api/employees"));
 
