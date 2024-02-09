@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require("express");
 const app = express();
 const path = require("path");
@@ -8,7 +9,12 @@ const errorHandler = require("./middleware/errorHandler");
 const { verifyJWT } = require("./middleware/verifyJWT");
 const cookieParser = require("cookie-parser");
 const credentials = require("./middleware/credentials");
+const mongoose = require("mongoose");
+const connectDb = require("./config/dbConn");
 const PORT = process.env.PORT || 3000;
+
+// Connect to MongoDB
+connectDb();
 
 // Custom Middleware - Logger
 app.use(logger);
@@ -46,7 +52,6 @@ app.use(verifyJWT);
 // This will route any request that comes in for the subdirectory to router instead of the routes below with app.method()
 app.use("/employees", require("./routes/api/employees"));
 
-
 // A slash followed by anything will get to this endpoint that will serve the 404 page.
 // app.get('/*', (req, res) => {
 //     res.status(404).sendFile(path.join(__dirname, 'views', '404.html'));
@@ -67,9 +72,12 @@ app.all("*", (req, res) => {
 
 app.use(errorHandler);
 
-app.listen(PORT, () => {
-  console.log(
-    `Server running on port ${PORT}`,
-    "- Click here: http://localhost:" + PORT
-  );
+mongoose.connection.once("open", () => {
+  console.log("Connected to MongoDB successfully");
+  app.listen(PORT, () => {
+    console.log(
+      `Server running on port ${PORT}`,
+      "- Click here: http://localhost:" + PORT
+    );
+  });
 });
